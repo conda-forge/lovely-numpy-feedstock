@@ -1,11 +1,11 @@
-About lovely-numpy
-==================
+About lovely-numpy-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/lovely-numpy-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/xl0/lovely-numpy
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/lovely-numpy-feedstock/blob/main/LICENSE.txt)
 
 Summary: 💟 Lovely numpy
 
