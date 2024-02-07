@@ -21,7 +21,6 @@ requirements:
   run:
     - python >=3.7
     - numpy >=1.17
-    - pillow
     - fastcore
     - ipython
     - matplotlib-base
