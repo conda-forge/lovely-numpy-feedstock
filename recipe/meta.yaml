@@ -1,13 +1,13 @@
 {% set name = "lovely-numpy" %}
-{% set version = "0.2.13" %}
+{% set version = "0.2.16" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 0ed56660986731db3d3d7ff130e85e8d162e96c96042a0bd9a3992d32a3b34e2
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: fda8ca67134f48814ddb9efe9eb38dffc74c0849d69eb2dd89d0b2757e14b628
 
 build:
   noarch: python
