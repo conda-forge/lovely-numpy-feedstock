@@ -1,5 +1,5 @@
 {% set name = "lovely-numpy" %}
-{% set version = "0.2.15" %}
+{% set version = "0.2.16" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 7b9599e4c3c133b098df72631bccebed57a94064969b807f29548926addacb81
+  sha256: fda8ca67134f48814ddb9efe9eb38dffc74c0849d69eb2dd89d0b2757e14b628
 
 build:
   noarch: python
@@ -23,7 +23,6 @@ requirements:
     - python >=3.7
     - numpy >=1.17
     - fastcore
-    - ipython
     - matplotlib-base
 
 test:
