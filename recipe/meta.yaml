@@ -1,5 +1,5 @@
 {% set name = "lovely-numpy" %}
-{% set version = "0.2.23" %}
+{% set version = "0.2.24" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: e4735891ab29e78b6ae8872780a7d0adf149391b3320829c6c9cc44861ffc340
+  sha256: 683ae278cb880d33e33757383675f073ef0b3897e49d083431e527cd0c3fd531
 
 build:
   noarch: python
